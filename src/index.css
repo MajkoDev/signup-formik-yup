@@ -32,9 +32,9 @@ body {
   min-height: 100vh;
 }
 
-
 button {
   border-radius: 8px;
+  margin: 5px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
@@ -44,12 +44,21 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
+
+.buttons {
+  margin-top: 15px;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.btn-primary {
+  background-color: #a7ceef;
+}
+.btn-primary:hover {
+  background-color: #89bee9;
+}
+.btn-secondary {
+  background-color: #efa7a7;
+}
+.btn-secondary:hover {
+  background-color: #e98f8f;
 }
 
 @media (prefers-color-scheme: light) {
@@ -64,4 +73,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
