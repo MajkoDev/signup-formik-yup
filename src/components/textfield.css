@@ -1,0 +1,17 @@
+label {
+  font-weight: 500;
+  font-size: 1.2em;
+  padding-right: 10px;
+  margin-left: auto;
+
+}
+input {
+  font-size: 1em;
+  padding: 5px;
+  min-width: 200px;
+}
+.input{
+  margin: 5px 0;
+  display: flex;
+
+}
